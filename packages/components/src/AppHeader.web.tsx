@@ -1,10 +1,12 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 
 export function AppHeader() {
-  return <View style={styles.container}>
-      <Text style={styles.text}>Welcome to React Native Web + Monorepo</Text>
+  return (
+    <View style={styles.container}>
+      <Text style={styles.text}>Egnahemsfabriken</Text>
     </View>
+  );
 }
 
 const styles = StyleSheet.create({
@@ -13,10 +15,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: '100%',
     height: 200,
-    backgroundColor: '#f3f3f3',
+    backgroundColor: '#f3f3f3'
   },
   text: {
-   fontSize: 36,
-   fontWeight: '600',
+    fontSize: 36,
+    fontWeight: '600'
   }
-})
+});
